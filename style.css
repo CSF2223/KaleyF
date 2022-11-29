@@ -1,11 +1,11 @@
 /*
 Color Palette
-background color: #171717
+background color: #3F3B6C
 primary: #512C73
 secondary: #361356
 tertiary: #6F4D8F
 accent: #444444
-vegasGold: #c5b358
+vegasGold: #b2d3ec
 white: #fff
 black: #000  
 */
@@ -20,7 +20,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #171717;
+    background-color: #3F3B6C;
     color: #fff;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .heroName {
-    color: #c5b358;
+    color: #b2d3ec;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -70,18 +70,18 @@ body {
 .button {
     background-color: white;
     padding: 1rem;
-    border: 1px solid #444444;
+    border: 1px solid #9F73AB;
     border-radius: 25px;
     font-size: 0.9px;
     font-weight: 700;
-    color: #171717;
+    color: #3F3B6C;
     text-decoration: none;
     box-shadow: 8px 8px 4px #000;
 }
 
 .button:hover {
-    background-color: #444444;
-    color: #c5b358;
+    background-color: #9F73AB;
+    color: #fff;
     transform: scale(1.5);
     /* (150% zoom -  Note: if the zoom is too large, it will go outside of the viewport) */ 
 }
@@ -95,7 +95,7 @@ body {
 
 .projectCard {
     background-color: #fff;
-    color: #171717;
+    color: #3F3B6C;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
@@ -145,16 +145,16 @@ body {
 
 footer {
     text-align: center;
-    color: #c5b358;
+    color: #b2d3ec;
     margin: 10rem 0;
-    border-top: 1px solid #444444;
+    border-top: 1px solid #9F73AB;
 }
 
 .copyright {
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
-    color: #c5b358;
+    color: #b2d3ec;
     display: block;
 }
 
