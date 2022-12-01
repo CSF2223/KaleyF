@@ -168,8 +168,25 @@ footer {
 }
 
 
+.aboutMeHeader {
+    margin: 1.5rem 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    letter-spacing:2px;
+}
 
+.fillerParagraph {
+    margin: 1.5rem 3rem;
+    text-align: left;
+    padding: 0.5rem;
+    letter-spacing: 2px;   
+}
 
+.fillerParagraph {
+    border: 8px white;
+    padding: 10px;
+    margin: 15px;
+}
 
 
 
