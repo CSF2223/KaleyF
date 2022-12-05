@@ -175,17 +175,28 @@ footer {
     letter-spacing:2px;
 }
 
-.fillerParagraph {
+.Me {
     margin: 1.5rem 3rem;
     text-align: left;
     padding: 0.5rem;
-    letter-spacing: 2px;   
+    letter-spacing: 1px;   
 }
 
-.fillerParagraph {
-    border: 8px white;
-    padding: 10px;
-    margin: 15px;
+.Me {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
