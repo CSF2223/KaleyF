@@ -175,14 +175,14 @@ footer {
     letter-spacing:2px;
 }
 
-.Me {
+.myText {
     margin: 1.5rem 3rem;
     text-align: left;
     padding: 0.5rem;
     letter-spacing: 1px;   
 }
 
-.Me {
+.myText {
     border-color: white;
     border-width: 2px;
     border-style: solid;
@@ -192,9 +192,34 @@ footer {
     border-top-right-radius: 20px;
 }
 
+.myText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .copyright {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.myImage {
+    padding: 2rem;
+}
+
+.myImage img {
+    border-radius: 6rem;
+    box-shadow: 10px 10px #000;
+    width: 30%;
+    height: auto;
+}
+
+.myImage img {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
